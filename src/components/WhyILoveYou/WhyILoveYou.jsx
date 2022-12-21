@@ -17,6 +17,8 @@ const WhyILoveYou = (props) => {
       <span>И я так же благодарен тебе абсолютно за каждый миг нашего совместно проведённого времени, ведь только в эти моменты я по-настоящему счастлив, <i>милая</i>.</span><br />
       <span></span><br />
       <span></span><br />
+      <span></span><br />
+      <p className={styles.lastSpan} >Я тебя люблю!</p><br />
     </div>
   )
 }
