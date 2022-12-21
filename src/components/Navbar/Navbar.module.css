@@ -1,5 +1,23 @@
 .navbar {
-  position: fixed;
-  top: 130px;
-  left: 20px;
+  /* position: fixed; */
+  color: #f8f7f7;
+  background-color: #f1c3c8;
+  left: 0px;
+  right: 0px;    
+  text-align: center;   
+}
+
+.underNavbar {
+  /* background-color: #fadadd; */
+  padding-top: 105px;
+}
+
+.item {
+  text-decoration: none;
+  color: #f8f7f7
+}
+
+.active {
+  text-decoration: none;
+  color: red
 }
