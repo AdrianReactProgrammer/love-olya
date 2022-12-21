@@ -16,7 +16,7 @@ const App = (props) => {
       <Routes>
         <Route path="/WhyILoveYou" element={<WhyILoveYou />} />
         <Route path="/HowILoveYou" element={<HowILoveYou />} />
-        <Route path="/HowYouEditMe" element={<HowYouEditMe />} />
+        {/* <Route path="/HowYouEditMe" element={<HowYouEditMe />} /> */}
       </Routes>
       <div className={styles.forever} >12.08.22 - навсегда</div>
     </div>
