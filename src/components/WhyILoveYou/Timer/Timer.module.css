@@ -1,12 +1,12 @@
 .timer {
-  color: #fadadd;
+  color: #f8f7f7;
   font-size: larger;
   font-weight: 900;
-  width: 160px;
+  width: auto;
   text-align: center;
   background-color: #f1c3c8;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 10px;
+  position: fixed
 }
 
 p {
