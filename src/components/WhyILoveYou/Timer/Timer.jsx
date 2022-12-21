@@ -28,7 +28,7 @@ const Timer = ({ date }) => {
       <p>{`${diffDays} дней ${diffH.toString().padStart(2, '0')}:${diffM
       .toString()
       .padStart(2, '0')}:${diffS.toString().padStart(2, '0')}`}</p>
-      <span>я поцелую тебя</span>
+      <span>я поцелую тебя!</span>
     </div>
     
   )
