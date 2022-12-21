@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/love-olya/static/css/main.6c0be6bb.css",
-    "main.js": "/love-olya/static/js/main.5515f6ab.js",
+    "main.css": "/love-olya/static/css/main.ed84a680.css",
+    "main.js": "/love-olya/static/js/main.17f2210a.js",
     "static/js/787.28cb0dcd.chunk.js": "/love-olya/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/love-olya/index.html",
-    "main.6c0be6bb.css.map": "/love-olya/static/css/main.6c0be6bb.css.map",
-    "main.5515f6ab.js.map": "/love-olya/static/js/main.5515f6ab.js.map",
+    "main.ed84a680.css.map": "/love-olya/static/css/main.ed84a680.css.map",
+    "main.17f2210a.js.map": "/love-olya/static/js/main.17f2210a.js.map",
     "787.28cb0dcd.chunk.js.map": "/love-olya/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c0be6bb.css",
-    "static/js/main.5515f6ab.js"
+    "static/css/main.ed84a680.css",
+    "static/js/main.17f2210a.js"
   ]
 }
