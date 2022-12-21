@@ -7,6 +7,8 @@
   text-align: center;
   border: 1px solid #f8f7f7;
   border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .underNavbar {
