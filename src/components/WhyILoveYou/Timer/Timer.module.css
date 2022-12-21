@@ -1,8 +1,12 @@
 .timer {
-  color: green;
+  color: #fadadd;
   font-size: larger;
   font-weight: 900;
   width: 160px;
   text-align: center;
-  background-color: black;
+  background-color: #f1c3c8;
+}
+
+p {
+  margin: 0
 }

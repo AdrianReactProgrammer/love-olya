@@ -24,9 +24,11 @@ const Timer = ({ date }) => {
 
   return (
     <div className={styles.timer}>
+      <span>Через</span>
       <p>{`${diffDays} дней ${diffH.toString().padStart(2, '0')}:${diffM
       .toString()
       .padStart(2, '0')}:${diffS.toString().padStart(2, '0')}`}</p>
+      <span>я поцелую тебя</span>
     </div>
     
   )
