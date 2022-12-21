@@ -18,6 +18,7 @@ const WhyILoveYou = (props) => {
       <span></span><br />
       <span></span><br />
       <span></span><br />
+      <img src="https://sun9-47.userapi.com/impg/fjnz3_NQq3g-zHAqcEvEhEFQ7YEhEfJUlke0KA/Wfc4sOunpwc.jpg?size=960x1280&quality=95&sign=341bfefe39b8942b64209d564567133f&type=album" />
       <p className={styles.lastSpan} >Я тебя люблю!</p><br />
     </div>
   )

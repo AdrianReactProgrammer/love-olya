@@ -7,7 +7,8 @@ const Navbar = (props) => {
       <div className={styles.navbar} >
         <NavLink to="/WhyILoveYou" className={navData => navData.isActive ? styles.active : styles.item} >Почему я тебя люблю</NavLink><br />
         <NavLink to="/HowILoveYou" className={navData => navData.isActive ? styles.active : styles.item} >Как я тебя люблю</NavLink><br />
-        <NavLink to="/HowYouEditMe" className={navData => navData.isActive ? styles.active : styles.item} >Как ты меня изменила</NavLink>
+        <NavLink to="/HowYouEditMe" className={navData => navData.isActive ? styles.active : styles.item} >Как ты меня изменила</NavLink><br/>
+        <span className={styles.jmai} >(жмай)</span>
       </div>
     </div>
   )
