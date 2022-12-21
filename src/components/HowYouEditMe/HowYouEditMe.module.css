@@ -1,4 +1,4 @@
-.howILoveYou {
+.howYouEditMe {
   width: 90%;
   text-align: center;
   background-color: pink;
@@ -13,20 +13,20 @@
   font-size: larger;
 }
 
-.howILoveYou img {
+.howYouEditMe img {
   width: 80%;
   border: 1px solid red;
 }
 
-.howILoveYou span {
+.howYouEditMe span {
   font-family: 'Roboto', sans-serif;
   /* font-weight: 100; */
 }
 
-.howILoveYou h2 {
+.howYouEditMe h2 {
   font-family: 'Caveat', cursive;
 }
 
-.howILoveYou {
+.lastSpan {
   font-family: 'Caveat', cursive;
 }

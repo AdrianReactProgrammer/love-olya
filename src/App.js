@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import WhyILoveYou from "./components/WhyILoveYou/WhyILoveYou";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HowILoveYou from './components/HowILoveYou/HowILoveYou';
+import HowYouEditMe from './components/HowYouEditMe/HowYouEditMe';
 
 
 
@@ -15,6 +16,7 @@ const App = (props) => {
       <Routes>
         <Route path="/WhyILoveYou" element={<WhyILoveYou />} />
         <Route path="/HowILoveYou" element={<HowILoveYou />} />
+        <Route path="/HowYouEditMe" element={<HowYouEditMe />} />
       </Routes>
       <div className={styles.forever} >12.08.22 - навсегда</div>
     </div>
