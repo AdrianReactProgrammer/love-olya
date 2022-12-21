@@ -1,0 +1,15 @@
+.preloader {
+    margin-bottom: 20px;
+    /* width: 100px; */
+}
+
+.preloaderContainer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    /* text-align: center;
+    align-items: center;
+    align-content: center; */
+}
