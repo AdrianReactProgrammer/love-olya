@@ -3,8 +3,10 @@
   color: #f8f7f7;
   background-color: #f1c3c8;
   left: 0px;
-  right: 0px;    
-  text-align: center;   
+  right: 0px;
+  text-align: center;
+  border: 1px solid #f8f7f7;
+  border-radius: 20px;
 }
 
 .underNavbar {
