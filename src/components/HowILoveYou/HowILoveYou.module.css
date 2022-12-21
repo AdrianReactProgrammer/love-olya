@@ -1,12 +1,18 @@
 .howILoveYou {
-  width: 80%;
+  width: 90%;
   text-align: center;
   background-color: pink;
+  color: red;
+  padding: 5px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 20px;
   border: 2px solid red;
-  font-family: 'Caveat', cursive;
   font-size: larger;
+}
+
+.howILoveYou h2 {
+  font-family: 'Caveat', cursive;
 }

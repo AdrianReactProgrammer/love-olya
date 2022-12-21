@@ -1,12 +1,23 @@
 .whyILoveYou {
-  width: 80%;
+  width: 90%;
   text-align: center;
   background-color: pink;
+  color: red;
   margin-left: auto;
+  padding: 5px;
   margin-right: auto;
   margin-top: 10px;
+  margin-bottom: 100px;
   border-radius: 20px;
   border: 2px solid red;
-  font-family: 'Caveat', cursive;
   font-size: larger;
+}
+
+.whyILoveYou span {
+  font-family: 'Russo One', sans-serif;
+  font-weight: 100;
+}
+
+.whyILoveYou h2 {
+  font-family: 'Caveat', cursive;
 }

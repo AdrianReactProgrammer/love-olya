@@ -3,7 +3,7 @@ import styles from "./HowILoveYou.module.css"
 const HowILoveYou = (props) => {
   return (
     <div className={styles.howILoveYou} >
-      <h1>Как я тебя люблю?</h1>
+      <h2>Как я тебя люблю?</h2>оля
     </div>
   )
 }
