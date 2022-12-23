@@ -111,7 +111,8 @@ const HowIFuckYou = (props) => {
                     <span className={styles.povestvovanie}></span><br />
                     <span className={styles.povestvovanie}></span><br />
                     <span className={styles.povestvovanie}></span><br />
-                    <span className={styles.povestvovanie}>Я предупреждал)</span><br />
+                    <span className={styles.povestvovanie}>Я предупреждал</span><br />
+                    <span>&#10084;</span>
                   </>
                   : null}
                 <span className={styles.povestvovanie}></span><br />
@@ -133,7 +134,7 @@ const HowIFuckYou = (props) => {
     return (
       <div className={styles.howIFuckYou}>
         <h3>Пароль:</h3>
-        <input onChange={(e) => {setPassword(e.currentTarget.value)}} />
+        <input onChange={(e) => {setPassword(e.currentTarget.value)}} /><br/>
       </div>
     )
   }
