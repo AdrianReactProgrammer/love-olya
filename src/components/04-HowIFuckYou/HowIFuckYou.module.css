@@ -2,7 +2,7 @@
   width: 90%;
   text-align: center;
   background-color: black;
-  color: white;
+  color: pink;
   margin-left: auto;
   padding: 5px;
   margin-right: auto;
@@ -12,6 +12,20 @@
   border: 2px solid red;
   font-size: larger;
 }
+
+button {
+  color: black;
+  background-color: pink;
+  border-radius: 20px;
+  width: 40%;
+  height: 50px;
+  font-size: large;
+  border: 1px solid gray
+}
+
+/* button:hover {
+  opacity: 0.6
+} */
 
 .howIFuckYou img {
   width: 80%;
@@ -23,8 +37,27 @@
   /* font-weight: 100; */
 }
 
-.howIFuckYou h2 {
-  /* font-family: 'Caveat', cursive; */
+.povestvovanie {
+  font-weight: 300;
+}
+
+.howIFuckYou h3 {
+  color: pink;
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: 400;
+}
+
+.whatButton {
+  color: black;
+  background-color: pink;
+  border-radius: 20px;
+  width: 20%;
+  height: 30px;
+  font-size: medium;
+  margin-top: 10px;
 }
 
 .lastSpan {
