@@ -27,6 +27,14 @@ button {
   opacity: 0.6
 } */
 
+.howIFuckYou input {
+  background-color: pink;
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
 .howIFuckYou img {
   width: 80%;
   border: 1px solid red;
