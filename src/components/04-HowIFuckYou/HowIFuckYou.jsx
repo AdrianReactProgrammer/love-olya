@@ -1,9 +1,15 @@
+import { useState } from "react"
 import styles from "./HowIFuckYou.module.css"
 
 const HowIFuckYou = (props) => {
+
+  const [question, setQuestion] = useState(0)
+
   return (
     <div className={styles.howIFuckYou}>
       <h2>Как я трахну тебя?</h2>
+      {question === 0 ? <button>123</button> : null}
+      
       <span></span><br />
       <span></span><br />
       <span></span><br />
