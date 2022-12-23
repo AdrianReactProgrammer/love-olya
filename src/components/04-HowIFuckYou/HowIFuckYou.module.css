@@ -36,6 +36,11 @@ button {
   border-radius: 10px;
 }
 
+.rotatedEmoji {
+  color: green;
+  filter: hue-rotate(235deg);
+}
+
 .howIFuckYou img {
   width: 80%;
   border: 1px solid red;
