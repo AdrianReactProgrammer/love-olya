@@ -22,9 +22,18 @@
   color: #f8f7f7
 }
 
+.fuckItem {
+  opacity: 0;
+}
+
 .active {
   text-decoration: none;
   color: red
+}
+.fuckActive {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .jmai {

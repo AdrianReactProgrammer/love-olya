@@ -1,15 +1,15 @@
-import styles from "./HowYouEditMe.module.css"
+import styles from "./HowIFuckYou.module.css"
 
-const HowYouEditMe = (props) => {
+const HowIFuckYou = (props) => {
   return (
-    <div className={styles.howYouEditMe}>
-      <h2>Как ты изменила меня?</h2>
+    <div className={styles.howIFuckYou}>
+      <h2>Как я трахну тебя?</h2>
       <span></span><br />
       <span></span><br />
       <span></span><br />
-      <img src="" />
-      <p className={styles.lastSpan} >Я тебя люблю!</p><br />
-    </div> 
+      {/* <img src="" /> */}
+      <p className={styles.lastSpan} >😈😈😈</p><br />
+    </div>
   )
 }
 
@@ -34,4 +34,4 @@ const HowYouEditMe = (props) => {
 //<p className={styles.lastSpan} >Я тебя люблю!</p><br />
 //</div>
 
-export default HowYouEditMe
+export default HowIFuckYou

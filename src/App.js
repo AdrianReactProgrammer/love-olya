@@ -1,10 +1,10 @@
-import Timer from "./components/WhyILoveYou/Timer/Timer";
+import Timer from "./components/02-WhyILoveYou/Timer/Timer";
 import styles from "./App.module.css"
-import Navbar from "./components/Navbar/Navbar";
-import WhyILoveYou from "./components/WhyILoveYou/WhyILoveYou";
+import Navbar from "./components/01-Navbar/Navbar";
+import WhyILoveYou from "./components/02-WhyILoveYou/WhyILoveYou";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HowILoveYou from './components/HowILoveYou/HowILoveYou';
-import HowYouEditMe from './components/HowYouEditMe/HowYouEditMe';
+import HowILoveYou from './components/03-HowILoveYou/HowILoveYou';
+import HowIFuckYou from './components/04-HowIFuckYou/HowIFuckYou';
 
 
 
@@ -16,7 +16,7 @@ const App = (props) => {
       <Routes>
         <Route path="/WhyILoveYou" element={<WhyILoveYou />} />
         <Route path="/HowILoveYou" element={<HowILoveYou />} />
-        {/* <Route path="/HowYouEditMe" element={<HowYouEditMe />} /> */}
+        <Route path="/HowIFuckYou" element={<HowIFuckYou />} />
       </Routes>
       <div className={styles.forever} >12.08.22 - навсегда</div>
     </div>
