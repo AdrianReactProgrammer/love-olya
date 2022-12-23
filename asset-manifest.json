@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/love-olya/static/css/main.cc886a66.css",
-    "main.js": "/love-olya/static/js/main.03363d8d.js",
+    "main.js": "/love-olya/static/js/main.ee13c9ab.js",
     "static/js/787.28cb0dcd.chunk.js": "/love-olya/static/js/787.28cb0dcd.chunk.js",
     "static/media/serdechki.jpg": "/love-olya/static/media/serdechki.e3152335663cef918a81.jpg",
     "index.html": "/love-olya/index.html",
     "main.cc886a66.css.map": "/love-olya/static/css/main.cc886a66.css.map",
-    "main.03363d8d.js.map": "/love-olya/static/js/main.03363d8d.js.map",
+    "main.ee13c9ab.js.map": "/love-olya/static/js/main.ee13c9ab.js.map",
     "787.28cb0dcd.chunk.js.map": "/love-olya/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc886a66.css",
-    "static/js/main.03363d8d.js"
+    "static/js/main.ee13c9ab.js"
   ]
 }
