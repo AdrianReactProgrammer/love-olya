@@ -31,23 +31,23 @@ const Timer = ({ date }) => {
         .toString()
         .padStart(2, "0")}`}</p>
       <span>я тебя поцелую!</span>
-      <div className={styles.meYou}>
+      <div>
         {diffDays === 6 ? <div>
-                   {diffH > 23 ? <div>🐵______________🐵</div> : null }{diffH <= 23 ? <div>🐵_____________🐵</div> : null }</div> : null}{diffDays === 5 ? <div>
-                   {diffH > 23 ? <div>🐵_____________🐵</div> : null }{diffH <= 23 ? <div>🐵____________🐵</div> : null }</div> : null}{diffDays === 4 ? <div>
-                   {diffH > 23 ? <div>🐵____________🐵</div> : null }{diffH <= 23 ? <div>🐵___________🐵</div> : null }</div> : null}{diffDays === 3 ? <div>
-                   {diffH > 23 ? <div>🐵___________🐵</div> : null }{diffH <= 23 ? <div>🐵__________🐵</div> : null }</div> : null}{diffDays === 2 ? <div>
-                   {diffH > 23 ? <div>🐵__________🐵</div> : null }{diffH <= 23 ? <div>🐵_________🐵</div> : null }</div> : null}{diffDays === 1 ? <div>
-                   {diffH > 23 ? <div>🐵_________🐵</div> : null }{diffH <= 23 ? <div>🐵________🐵</div> : null }</div> : null}{diffDays === 0 ? <div>
-                   {diffH > 23 ? <div>🐵________🐵</div> : null }{diffH <= 23 
-                  && diffH > 5 ? <div>🐵_______🐵</div> : null }
-                  {diffH === 5 ? <div>🐵______🐵</div> : null }
-                  {diffH === 4 ? <div>🐵_____🐵</div> : null }
-                  {diffH === 3 ? <div>🐵____🐵</div> : null }
-                  {diffH === 2 ? <div>🐵___🐵</div> : null }
-                  {diffH === 1 ? <div>🐵__🐵</div> : null }
-                  {diffH === 0 ? <div>🐵_🐵</div> : null }
-   {diffH === 0 && diffM === 0 ? <div>🐵🐵</div> : null }
+                   {diffH > 23 ? <span className={styles.meYou}>🐵______________🐵</span> : null }{diffH <= 23 ? <span className={styles.meYou}>🐵_____________🐵</span> : null }</div> : null}{diffDays === 5 ? <div>
+                   {diffH > 23 ? <span className={styles.meYou}>🐵_____________🐵</span> : null }{diffH <= 23 ? <span className={styles.meYou}>🐵____________🐵</span> : null }</div> : null}{diffDays === 4 ? <div>
+                   {diffH > 23 ? <span className={styles.meYou}>🐵____________🐵</span> : null }{diffH <= 23 ? <span className={styles.meYou}>🐵___________🐵</span> : null }</div> : null}{diffDays === 3 ? <div>
+                   {diffH > 23 ? <span className={styles.meYou}>🐵___________🐵</span> : null }{diffH <= 23 ? <span className={styles.meYou}>🐵__________🐵</span> : null }</div> : null}{diffDays === 2 ? <div>
+                   {diffH > 23 ? <span className={styles.meYou}>🐵__________🐵</span> : null }{diffH <= 23 ? <span className={styles.meYou}>🐵_________🐵</span> : null }</div> : null}{diffDays === 1 ? <div>
+                   {diffH > 23 ? <span className={styles.meYou}>🐵_________🐵</span> : null }{diffH <= 23 ? <span className={styles.meYou}>🐵________🐵</span> : null }</div> : null}{diffDays === 0 ? <div>
+                   {diffH > 23 ? <span className={styles.meYou}>🐵________🐵</span> : null }{diffH <= 23 
+                  && diffH > 5 ? <span className={styles.meYou}>🐵_______🐵</span> : null }
+                  {diffH === 5 ? <span className={styles.meYou}>🐵______🐵</span> : null }
+                  {diffH === 4 ? <span className={styles.meYou}>🐵_____🐵</span> : null }
+                  {diffH === 3 ? <span className={styles.meYou}>🐵____🐵</span> : null }
+                  {diffH === 2 ? <span className={styles.meYou}>🐵___🐵</span> : null }
+                  {diffH === 1 ? <span className={styles.meYou}>🐵__🐵</span> : null }
+                  {diffH === 0 ? <span className={styles.meYou}>🐵_🐵</span> : null }
+   {diffH === 0 && diffM === 0 ? <span className={styles.meYou}>🐵🐵</span> : null }
         </div> : null}
       </div>
     </div>
