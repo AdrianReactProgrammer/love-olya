@@ -1,4 +1,4 @@
-.whyILoveYou {
+.howIWantMakeYouHappy {
   width: 90%;
   text-align: center;
   background-color: pink;
@@ -13,20 +13,16 @@
   font-size: larger;
 }
 
-.whyILoveYou img {
+.howIWantMakeYouHappy img {
   width: 80%;
   border: 1px solid red;
 }
 
-.whyILoveYou span {
+.howIWantMakeYouHappy span {
   font-family: "Roboto", sans-serif;
   /* font-weight: 100; */
 }
 
-.whyILoveYou h2 {
-  font-family: "Caveat", cursive;
-}
-
-.lastSpan {
+.howIWantMakeYouHappy {
   font-family: "Caveat", cursive;
 }

@@ -14,12 +14,12 @@
 
 .underNavbar {
   /* background-color: #fadadd; */
-  padding-top: 105px;
+  padding-top: 135px;
 }
 
 .item {
   text-decoration: none;
-  color: #f8f7f7
+  color: #f8f7f7;
 }
 
 .fuckItem {
@@ -28,7 +28,7 @@
 
 .active {
   text-decoration: none;
-  color: red
+  color: red;
 }
 .fuckActive {
   color: black;
@@ -38,5 +38,5 @@
 
 .jmai {
   color: red;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
 }
