@@ -25,7 +25,7 @@ const Timer = ({ date }) => {
   return (
     <div className={styles.timer}>
       <span>Через</span>
-      <p className={styles.timerP}>{`${diffDays} дней ${diffH
+      <p className={styles.timerP}>{`${diffDays} ${diffDays === 2 ? "дня" : diffDays === 1 ? "день" : "дней"} ${diffH
         .toString()
         .padStart(2, "0")}:${diffM.toString().padStart(2, "0")}:${diffS
         .toString()
