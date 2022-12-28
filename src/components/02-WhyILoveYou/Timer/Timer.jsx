@@ -170,21 +170,50 @@ const Timer = ({ date }) => {
         {(diffDays === 1 && diffH >= 11) || diffDays === 2 ? (
           diffDays === 2 ? (
             <div className={styles.trainToLoveContainer}>
-              {diffH === 9 ? <span className={styles.trainToLove}>🐵___________🚆</span> : null}
-              {diffH === 7 ? <span className={styles.trainToLove}>🐵__________🚆</span> : null}
-              {diffH === 5 ? <span className={styles.trainToLove}>🐵_________🚆</span> : null}
-              {diffH === 3 ? <span className={styles.trainToLove}>🐵________🚆</span> : null}
-              {diffH === 1 ? <span className={styles.trainToLove}>🐵_______🚆</span> : null}
+              {diffH === 9 || diffH === 8 ? <span className={styles.trainToLove}>🐵___________🚆</span> : null}
+              {diffH === 7 || diffH === 6 ? <span className={styles.trainToLove}>🐵__________🚆</span> : null}
+              {diffH === 5 || diffH === 4 ? <span className={styles.trainToLove}>🐵_________🚆</span> : null}
+              {diffH === 3 || diffH === 2 ? <span className={styles.trainToLove}>🐵________🚆</span> : null}
+              {diffH === 1 || diffH === 0 ? <span className={styles.trainToLove}>🐵_______🚆</span> : null}
             </div>
           ) : diffDays === 1 ? (
             <div className={styles.trainToLoveContainer}>
-              {diffH === 23 ? <span className={styles.trainToLove}>🐵______🚆</span> : null}
-              {diffH === 21 ? <span className={styles.trainToLove}>🐵_____🚆</span> : null}
-              {diffH === 19 ? <span className={styles.trainToLove}>🐵____🚆</span> : null}
-              {diffH === 17 ? <span className={styles.trainToLove}>🐵___🚆</span> : null}
-              {diffH === 15 ? <span className={styles.trainToLove}>🐵__🚆</span> : null}
-              {diffH === 13 ? <span className={styles.trainToLove}>🐵_🚆</span> : null}
+              {diffH === 24 ? <span className={styles.trainToLove}>🐵_______🚆</span> : null}
+              {diffH === 23 || diffH === 22 ? <span className={styles.trainToLove}>🐵______🚆</span> : null}
+              {diffH === 21 || diffH === 20 ? <span className={styles.trainToLove}>🐵_____🚆</span> : null}
+              {diffH === 19 || diffH === 18 ? <span className={styles.trainToLove}>🐵____🚆</span> : null}
+              {diffH === 17 || diffH === 16 ? <span className={styles.trainToLove}>🐵___🚆</span> : null}
+              {diffH === 15 || diffH === 14 ? <span className={styles.trainToLove}>🐵__🚆</span> : null}
+              {diffH === 13 || diffH === 12 ? <span className={styles.trainToLove}>🐵_🚆</span> : null}
               {diffH === 11 ? <span className={styles.trainToLove}>🐵🚆</span> : null}
+            </div>
+          ) : null
+        ) : null}
+        {(diffDays === 1 && diffH < 11) || diffDays === 0 ? (
+          diffDays === 0 ? (
+            <div className={styles.trainToLoveContainer}>
+              {diffH === 23 || diffH === 22 ? <span className={styles.trainToLove}>🚆____________🐵</span> : null}
+              {diffH === 21 || diffH === 20 ? <span className={styles.trainToLove}>🚆___________🐵</span> : null}
+              {diffH === 19 || diffH === 18 ? <span className={styles.trainToLove}>🚆__________🐵</span> : null}
+              {diffH === 17 || diffH === 16 ? <span className={styles.trainToLove}>🚆_________🐵</span> : null}
+              {diffH === 15 || diffH === 14 ? <span className={styles.trainToLove}>🚆________🐵</span> : null}
+              {diffH === 13 || diffH === 12 ? <span className={styles.trainToLove}>🚆_______🐵</span> : null}
+              {diffH === 11 || diffH === 10 ? <span className={styles.trainToLove}>🚆______🐵</span> : null}
+              {diffH === 9 || diffH === 8 ? <span className={styles.trainToLove}>🚆_____🐵</span> : null}
+              {diffH === 7 || diffH === 6 ? <span className={styles.trainToLove}>🚆____🐵</span> : null}
+              {diffH === 5 || diffH === 4 ? <span className={styles.trainToLove}>🚆___🐵</span> : null}
+              {diffH === 3 || diffH === 2 ? <span className={styles.trainToLove}>🚆__🐵</span> : null}
+              {diffH === 1 || (diffH === 0 && diffM >= 1) ? <span className={styles.trainToLove}>🚆_🐵</span> : null}
+              {diffH === 0 || diffM < 1 ? <span className={styles.trainToLove}>🚆🐵</span> : null}
+            </div>
+          ) : diffDays === 1 ? (
+            <div className={styles.trainToLoveContainer}>
+              {diffH === 11 || diffH === 10 ? <span className={styles.trainToLove}>🚆__________________🐵</span> : null}
+              {diffH === 9 || diffH === 8 ? <span className={styles.trainToLove}>🚆_________________🐵</span> : null}
+              {diffH === 7 || diffH === 6 ? <span className={styles.trainToLove}>🚆________________🐵</span> : null}
+              {diffH === 5 || diffH === 4 ? <span className={styles.trainToLove}>🚆_______________🐵</span> : null}
+              {diffH === 3 || diffH === 2 ? <span className={styles.trainToLove}>🚆______________🐵</span> : null}
+              {diffH === 1 || diffH === 0 ? <span className={styles.trainToLove}>🚆_____________🐵</span> : null}
             </div>
           ) : null
         ) : null}
